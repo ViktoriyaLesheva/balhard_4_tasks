@@ -20,9 +20,8 @@ TODAY_LOG = [
 
 
 def count_elements(collection: list, element: Any) -> int:
-    # TODO вставить код сюда
-    count = None
-    return count
+    count_elements = collection.count(element)
+    return count_elements
 
 
 if __name__ == '__main__':
